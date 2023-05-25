@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wealthwave"
+        tools:targetApi="31">
+        <activity
+            android:name=".ArticleUserMain"
+            android:exported="false" />
+        <activity
+            android:name=".FinanceAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".NewsUserRead"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateNewsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".NewsReadAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".news_read_admin"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleUserRead"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateArticlesAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleAdminMain"
+            android:exported="false" />
+        <activity
+            android:name=".AddArticlesAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ArtcleReadAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".EducationMainAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

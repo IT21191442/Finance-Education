@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Welth wave</string>
+    <string name="Learn_article_news">Learn_more_with_curated_article_news</string>
+    <string name="Create_Article">Create Article</string>
+    <string name="Create_quizzes">Create quizzes</string>
+    <string name="Financial_Education_Topics">More Financial Education Topics</string>
+    <string name="Choose_One_Category">Choose One Category</string>
+    <string name="Gamified_Learning">Gamified Learning</string>
+    <string name="score">Your total score is 5</string>
+    <string name="Update_Articles">Update Articles</string>
+    <string name="Update_Quizzes">Update Quizzes</string>
+
+</resources>
